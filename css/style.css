@@ -1,0 +1,30 @@
+
+body h1, h2{
+  color: #CCCCCC;
+}
+
+thead tr:nth-child(1) {
+    background: #CCCCCC;
+    color: white;
+}
+
+
+
+table {
+    border: 1px solid #CCCCCC;
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    margin: 10px auto;
+    width: 70%;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
