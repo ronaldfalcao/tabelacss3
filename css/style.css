@@ -1,29 +1,30 @@
-
+/*Título e subtítulo*/
 body h1, h2{
   color: #CCCCCC;
 }
 
+/*Label das colunas da tabela*/
 thead tr:nth-child(1) {
     background: #CCCCCC;
     color: white;
 }
 
-
-
+/*Tabela*/
 table {
     border: 1px solid #CCCCCC;
     font-family: Verdana,sans-serif;
     font-size: 12px;
     margin: 10px auto;
-    width: 70%;
+    width: 80%;
 }
 
+/*Células da tabela - Alinhamento*/
 th, td {
     padding: 5px;
     text-align: center;
 }
 
-
+/*Efeito zebrado*/
 tbody tr:nth-child(odd) {
     background: #eee;
 }
